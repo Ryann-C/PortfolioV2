@@ -1,122 +1,111 @@
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-                * {
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: border-box;
-                    font-family: 'Poppins', sans-serif;
-                }
-                
-                body {
-                    height: 100vh;
-                    background: #212529;
-                    color: #fff;
-                    text-align: center;
-                    margin-right: auto;
-                }
-                
-                span {
-                    color: #ffb742;
-                }
-                
-                .navbar {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    height: 100px;
-                    padding: 0 50px;
-                }
-                
-                .navbar h2 {
-                    color: #ffb742;
-                    font-weight: 600;
-                }
-                
-                .navbar ul {
-                    display: flex;
-                }
-                
-                .navbar ul li {
-                    list-style: none;
-                }
-                
-                .navbar ul li a {
-                    text-decoration: none;
-                    color: #fff;
-                    font-size: 16px;
-                    margin-right: 25px;
-                    transition: color 0.3s ease;
-                }
-                
-                .navbar ul li:hover a {
-                    color: #ffb742;
-                }
-                
-                .navbar ul li:last-child a {
-                    margin: 0;
-                }
-                
-                .contact {
-                    background: #ffb742;
-                    padding: 6px 30px;
-                    border: none;
-                    font-size: 16px;
-                    cursor: pointer;
-                    border-radius: 6px;
-                    transition: background-color 0.3s ease;
-                }
-                
-                .btn {
-                    background: #ffb742;
-                    padding: 6px 30px;
-                    border: none;
-                    font-size: 16px;
-                    cursor: pointer;
-                    border-radius: 6px;
-                    transition: background-color 0.3s ease;
-                }
-                
-                .presentation-general {
-                    margin-top: 30px;
-                    margin-left: 48px;
-                }
-                
-                .presentation-general h1 {
-                    color: #ffb742;
-                    margin-bottom: 15px;
-                }
-                
-                .presentation-general p {
-                    margin-left: 2px;
-                }
-                
-                .card {
-                    display: flex;
-                    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-                    grid-gap: 20px;
-                    background-color: #fff;
-                    text-align: center;
-                    border-radius: 5px;
-                    padding: 30px 0px 0px;
-                    margin-bottom: 30px;
-                    box-shadow: 0px 0px 35px 0px rgba(0.0.0.0.15);
-                    -webkit-transition: all linear .3s;
-                    display: grid;
-                }
-                
-                .competence-card {
-                    max-width: 1200px;
-                    margin: auto;
-                    display: flex;
-                    grid-template-columns: repeat(3, 1fr);
-                    /* Trois cartes par ligne */
-                    grid-gap: 20px;
-                    /* Espacement entre les cartes */
-                    background-color: #fff;
-                    /* Fond blanc */
-                    padding: 20px;
-                    /* Ajout de marge intérieure */
-                    border-radius: 8px;
-                    /* Bordure arrondie */
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                    /* Ombre pour créer un effet de profondeur */
-                }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #212529;
+    color: #fff;
+    text-align: center;
+    margin-right: auto;
+}
+
+span {
+    color: #ffb742;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px;
+}
+
+.navbar h2 {
+    color: #ffb742;
+    font-weight: 600;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+    color: #ffb742;
+}
+
+.navbar ul li:last-child a {
+    margin: 0;
+}
+
+.contact {
+    background: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btn {
+    background: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.presentation-general {
+    margin-top: 30px;
+    margin-left: 48px;
+}
+
+.presentation-general h1 {
+    color: #ffb742;
+    margin-bottom: 15px;
+}
+
+.presentation-general p {
+    margin-left: 2px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: -1rem;
+    list-style: none;
+}
+
+.card {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 6rem rgba (black, 0.1);
+}
+
+.card--image {
+    font-size: 6rem;
+    line-height: 1;
+}
