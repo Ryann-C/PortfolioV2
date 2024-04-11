@@ -95,9 +95,12 @@ span {
 
 .cards {
     display: flex;
-    flex-direction: column;
-    margin: -1rem;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
     list-style: none;
+    color : black;
 }
 
 .card {
