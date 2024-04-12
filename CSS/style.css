@@ -11,15 +11,13 @@ body {
     background: #212529;
     color: #fff;
     text-align: center;
-    margin-right: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 115%;
 }
 
 span {
     color: #ffb742;
-}
-
-.main {
-    background-image: ;
 }
 
 .navbar {
@@ -28,6 +26,7 @@ span {
     justify-content: space-between;
     height: 100px;
     padding: 0 50px;
+    margin-bottom: 2%;
 }
 
 .navbar h2 {
@@ -100,7 +99,7 @@ span {
     text-align: center;
     margin: 20px;
     list-style: none;
-    color : black;
+    color: black;
 }
 
 .card {
@@ -115,4 +114,8 @@ span {
 .card--image {
     font-size: 6rem;
     line-height: 1;
+}
+
+.card--image img {
+    height: 70px;
 }
