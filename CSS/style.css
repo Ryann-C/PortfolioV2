@@ -119,3 +119,11 @@ span {
 .card--image img {
     height: 70px;
 }
+
+.veille-suivi a{
+    text-decoration: none;
+}
+
+.cards a{
+    color: #c77b01;
+}
