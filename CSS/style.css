@@ -109,6 +109,9 @@ span {
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 6rem rgba (black, 0.1);
+    min-height : 250px;
+    max-height: 600px;
+
 }
 
 .card--image {
@@ -126,4 +129,32 @@ span {
 
 .cards a{
     color: #c77b01;
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        padding: 10px 15px 30px 15px;
+        height : auto;
+        width : auto;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        min-height : 400px;
+        max-height : 1600px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
 }
